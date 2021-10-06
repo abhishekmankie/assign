@@ -1,0 +1,40 @@
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background-color: grey;
+}
+body {
+  border: black;
+  border-style: solid;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.dollar {
+  font-weight: bolder;
+}
+.shipping {
+  font-weight: bold;
+  color: grey;
+}
+.butt {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.butt:hover {
+  background-color: green;
+}
+.butt:active {
+  background-color: red;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.More {
+  color: black;
+}

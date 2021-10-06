@@ -1,0 +1,16 @@
+{
+  "name": "Assignment-1",
+  "version": "1.0.0",
+  "description": "This is just a testing repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
