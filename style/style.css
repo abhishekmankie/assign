@@ -1,4 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
 .heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -6,26 +12,33 @@
   background-color: grey;
 }
 body {
-  border: black;
-  border-style: solid;
+  /* border: black; */
+  /* border-style: solid; */
   font-family: sans-serif;
   font-weight: 700;
 }
 .dollar {
   font-weight: bolder;
+  padding-top: 10px;
 }
 .shipping {
+  padding-top: 3px;
   font-weight: bold;
   color: grey;
 }
 .butt {
+  display: inline-block;
   color: white;
   background-color: black;
   text-transform: uppercase;
-  text-decoration: underline;
+  margin: auto;
+  width: 700px;
+  height: 45px;
+  margin-top: 15px;
 }
 .butt:hover {
   background-color: green;
+  cursor: pointer;
 }
 .butt:active {
   background-color: red;
@@ -34,7 +47,27 @@ body {
 h3 {
   text-transform: uppercase;
   font-weight: 700;
+  padding-top: 30px;
 }
 .More {
   color: black;
+}
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: black 6px;
+  border-style: solid;
+}
+.wardrobe {
+  padding-top: 15px;
+  font-weight: normal;
+}
+li {
+  margin-left: 20px;
+  padding-top: 15px;
+  list-style-type: square;
+}
+ul {
+  font-weight: normal;
 }
