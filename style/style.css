@@ -3,13 +3,10 @@
   margin: 0px;
 }
 .heading {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-
+  padding: 15px;
+  width: auto;
   background-color: grey;
+  text-align: center;
 }
 body {
   /* border: black; */
@@ -27,14 +24,12 @@ body {
   color: grey;
 }
 .butt {
-  display: inline-block;
   color: white;
   background-color: black;
   text-transform: uppercase;
-  margin: auto;
-  width: 700px;
-  height: 45px;
-  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+  border: none;
 }
 .butt:hover {
   background-color: green;
@@ -54,8 +49,7 @@ h3 {
 }
 .container {
   width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
   border: black 6px;
   border-style: solid;
 }
